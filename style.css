@@ -3,8 +3,192 @@
 
 /* ---------Common styles or utilities------------- */
 
+html,
 body {
     font-family: "Poppins", sans-serif;
-    max-width: 1240px;
-    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
+
+/* ---------Navbar-section style ---------------*/
+
+.abacus {
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.home-feature {
+    position: relative;
+    left: 40%;
+}
+
+.nav-item {
+    margin-left: 3px;
+}
+
+.nav-item a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.fa-circle-info {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.fa-address-card {
+    font-size: 18.4px;
+    margin-top: 5px;
+}
+
+.fa-envelope {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* ------------precious moment section style--------------- */
+
+.precious {
+    margin-top: 5%;
+    position: relative;
+    left: 6%;
+}
+
+.moment {
+    font-size: 33px;
+    font-weight: 800;
+}
+
+/* --------------package section style ------------------*/
+
+.package {
+    position: relative;
+    left: 44%;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*----------------- plans section style-------------------*/
+
+.plan {
+    margin-top: 7%;
+    position: relative;
+    left: 1%;
+}
+
+.wedding {
+    position: relative;
+    right: 2%;
+    box-shadow: 2px 2px 8px blue;
+}
+
+.corporet {
+    position: relative;
+    left: 25px;
+}
+
+/* ----------------happy section style------------------------ */
+
+.happy {
+    margin-top: 6%;
+    margin-left: 40%;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+/* ------------------client section style------------------- */
+
+.clients {
+    margin-top: 2.4%;
+    position: relative;
+    left: 6%;
+}
+
+.each-client {
+    border: 2px solid white;
+    box-shadow: 1px 1px 3px 2px grey;
+    border-radius: 4px;
+    margin-left: 2.5%;
+}
+
+.client-image {
+    margin-left: 33%;
+}
+
+.client-name-1 {
+    margin-left: 29%;
+    margin-top: 2%;
+}
+
+.client-name-2,
+.client-name-3 {
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+.banker {
+    margin-left: 39%;
+}
+
+.freelancer {
+    margin-left: 38%;
+}
+
+.engineer {
+    margin-left: 40%;
+}
+
+/*------------- Frequent asked section style---------------- */
+
+.frequent {
+    margin-top: 6%;
+    margin-left: 35%;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.frequent-asked {
+    margin-top: 4.4%;
+    position: relative;
+    left: 3.8%;
+}
+
+/* ----------------Footer section style------------------------ */
+
+.footer-section {
+    margin-top: 6.5%;
+    margin-bottom: 0.1%;
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.copyright-app {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    color: silver;
+    margin-top: 8.4%;
+    margin-left: 2%;
+}
+
+.get-app {
+    margin-left: 33%;
+    margin-top: 4%;
+}
+
+.get-app h5 {
+    color: silver;
+    margin-bottom: 13%;
 }
