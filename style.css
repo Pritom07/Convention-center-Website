@@ -78,7 +78,7 @@ body {
 /*----------------- plans section style-------------------*/
 
 .plan {
-    margin-top: 7%;
+    margin-top: 6%;
     position: relative;
     left: 1%;
 }
@@ -191,4 +191,184 @@ body {
 .get-app h5 {
     color: silver;
     margin-bottom: 13%;
+}
+
+/* ---------------media quries section---------------- */
+
+@media only screen and (max-width:688px) {
+
+    .home-feature {
+        position: relative;
+        left: -1%;
+        padding-left: 34%;
+    }
+
+    /* -----------carousel section style--------------- */
+
+    .carousel-handle {
+        width: 100%;
+        height: 500px;
+        margin-top: 1%;
+    }
+
+    .carousel-image {
+        height: 500px;
+        width: 360px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 7px;
+    }
+
+    /* --------------precious section style------------------ */
+
+    .precious {
+        width: 100%;
+    }
+
+    .precious-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .precious-image {
+        position: relative;
+        right: 6.2%;
+        bottom: 32px;
+        margin-bottom: 13%;
+    }
+
+    .moment {
+        font-size: 26px;
+        position: relative;
+        right: 4%;
+        margin-bottom: 3%;
+    }
+
+    .precious-caption p {
+        position: relative;
+        right: 4%;
+    }
+
+    .precious-caption button {
+        position: relative;
+        top: 272.5px;
+        left: 18%;
+    }
+
+    /*------------------ package section style----------------- */
+
+    .package {
+        position: relative;
+        left: -1%;
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+
+    /*----------------------- plan section section style ---------------*/
+
+    .plan>.row>.col-sm-9 {
+        margin-left: 5%;
+    }
+
+    .plan>.row>.col-sm-9>h2 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .wedding {
+        position: relative;
+        top: 28px;
+        right: 22px;
+        margin-left: 5%;
+
+    }
+
+    .wedding h2 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .wedding span {
+        position: relative;
+        right: 10%;
+    }
+
+    .corporet {
+        position: relative;
+        top: 52px;
+    }
+
+    /* -----------happy client section style---------------- */
+
+    .happy {
+        font-size: 28px;
+        position: relative;
+        right: 26%;
+        margin-top: 18%;
+        white-space: nowrap;
+    }
+
+    .clients {
+        position: relative;
+        top: -15px;
+        margin-top: 15%;
+    }
+
+    .each-client {
+        position: relative;
+        right: 8%;
+        margin-bottom: 6%;
+    }
+
+    /* ---------------frequent asked section style -------------------*/
+
+    .frequent {
+        font-size: 24.5px;
+        white-space: nowrap;
+        position: relative;
+        right: 27%;
+        top: -40px;
+    }
+
+    .asirbad-question {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .accordion {
+        margin-right: 8%;
+    }
+
+    .asirbad-question>.col-sm-10>img {
+        position: relative;
+        right: 3.6%;
+        bottom: 25px;
+    }
+
+    /* ---------------footer section style -------------------*/
+
+    .footer-section {
+        height: 400px;
+    }
+
+    .copyright-app {
+        flex-direction: column-reverse;
+    }
+
+    .copyright {
+        margin-top: 28%;
+        margin-left: 25%;
+    }
+
+    .get-app {
+        margin-top: 18%;
+        position: relative;
+        right: 2%;
+    }
+
 }
