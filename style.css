@@ -52,6 +52,13 @@ body {
     margin-top: 5px;
 }
 
+/* ----------------carousel section style-------------------- */
+
+.carousel-caption input {
+    font-size: 18px;
+    font-weight: 650;
+}
+
 /* ------------precious moment section style--------------- */
 
 .precious {
@@ -63,6 +70,11 @@ body {
 .moment {
     font-size: 33px;
     font-weight: 800;
+}
+
+.precious-caption button {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* --------------package section style ------------------*/
@@ -81,6 +93,11 @@ body {
     margin-top: 6%;
     position: relative;
     left: 1%;
+}
+
+.plan>.row>.col-lg-3>h2 {
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .wedding {
@@ -197,6 +214,8 @@ body {
 
 @media only screen and (max-width:688px) {
 
+    /*------------------- navbar section style----------------- */
+
     .home-feature {
         position: relative;
         left: -1%;
@@ -222,6 +241,11 @@ body {
 
     .carousel-caption p {
         font-size: 7px;
+    }
+
+    .carousel-caption input {
+        font-size: 16px;
+        font-weight: 700;
     }
 
     /* --------------precious section style------------------ */
@@ -257,7 +281,9 @@ body {
     .precious-caption button {
         position: relative;
         top: 272.5px;
-        left: 18%;
+        left: 17%;
+        font-size: 17px;
+        font-weight: 500;
     }
 
     /*------------------ package section style----------------- */
@@ -369,6 +395,207 @@ body {
         margin-top: 18%;
         position: relative;
         right: 2%;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /*------------------ navbar section style------------------ */
+
+    .abacus {
+        font-weight: 800;
+    }
+
+    /*------------------- carousel section style------------------ */
+
+    .carousel-handle {
+        width: 100%;
+        height: 550px;
+    }
+
+    .carousel-image {
+        height: 550px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 42px;
+    }
+
+    .carousel-caption p {
+        margin-top: 8%;
+        font-size: 16.6px;
+    }
+
+    .carousel-caption input {
+        width: 168px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 630;
+    }
+
+    /* --------------precious moment section ------------------*/
+
+    .precious {
+        margin-bottom: 15%;
+    }
+
+    .precious-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .precious-image {
+        width: 1200px;
+        position: relative;
+        right: 6.5%;
+        bottom: 20px;
+    }
+
+    .moment {
+        font-size: 52px;
+        position: relative;
+        right: 5%;
+    }
+
+    .precious-caption p {
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+        right: 5%;
+        margin-top: 4%;
+    }
+
+    .precious-caption button {
+        height: 60px;
+        margin-left: 20%;
+        font-size: 26px;
+        font-weight: 500;
+        position: relative;
+        top: 530px;
+    }
+
+    /*----------- package-plan section style --------------*/
+
+    .package {
+        font-size: 45px;
+        position: relative;
+        left: -1px;
+        margin-left: 28%;
+    }
+
+    .plan>.row>.col-md-5 {
+        margin-left: 5%;
+    }
+
+    .plan>.row>.col-md-5>h2 {
+        font-size: 45px;
+        font-weight: 790;
+    }
+
+    .wedding {
+        position: relative;
+        top: 10px;
+    }
+
+    .wedding h2 {
+        font-size: 45px;
+        font-weight: 790;
+    }
+
+    /* ---------happy clients section style --------------------*/
+
+    .happy {
+        margin-top: 10%;
+        font-size: 45px;
+        position: relative;
+        right: 17%;
+    }
+
+    .each-client {
+        margin-bottom: 4.5%;
+        padding: 2px 4px;
+    }
+
+    .each-client p {
+        font-size: 22px;
+        font-weight: 620;
+    }
+
+    .client-image {
+        margin-left: 40%;
+    }
+
+    .client-name-1 {
+        font-size: 28px;
+        position: relative;
+        left: 7%;
+    }
+
+    .client-name-2 {
+        font-size: 28px;
+        position: relative;
+        left: 4%;
+    }
+
+    .client-name-3 {
+        font-size: 28px;
+        position: relative;
+        left: 3%;
+    }
+
+    .banker {
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+        left: 4%;
+    }
+
+    .freelancer {
+        font-size: 22px;
+        font-weight: 510;
+        position: relative;
+        left: 2%;
+    }
+
+    .engineer {
+        font-size: 22px;
+        font-weight: 510;
+    }
+
+    /* --------------frequent asked section style --------------*/
+
+    .frequent {
+        font-size: 43px;
+        white-space: nowrap;
+        position: relative;
+        right: 21%;
+    }
+
+    .accordion-question {
+        font-size: 30px;
+    }
+
+    .accordion-body {
+        font-size: 22px;
+    }
+
+    .asirbad-question>.col-md-11>img {
+        width: 100%;
+        margin-top: 6%;
+        margin-left: 0.8%;
+    }
+
+    /* -------------footer section style------------------- */
+
+    .copyright {
+        font-size: 20px;
+        margin-top: 11%;
+        margin-left: 2%;
+    }
+
+    .get-app {
+        margin-right: 5%;
     }
 
 }
